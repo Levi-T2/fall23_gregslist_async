@@ -18,6 +18,8 @@ class ObservableAppState extends EventEmitter {
   /** @type {Car[]} */
   cars = []
 
+  houses = []
+
   // Used to load initial data
   init() {
 
